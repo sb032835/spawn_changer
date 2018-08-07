@@ -13,13 +13,13 @@ Changes your spawn location so you spawn closer to the boss. The following dunge
 * Red Refuge (N/H) | Off
 
 To turn them on in game, type the following command: 
->/proxy ts dungeon_short_name boss_number
->ex: /proxy ts rkn second
+>/proxy sc dungeon_short_name boss_number
+>ex: /proxy sc rkn second
 
 if no boss_number is provided, it will default to first boss.
 Boss_number takes following argument : first | second | last
 
->Type : /proxy ts help [for the list of supported dungeons]
+>Type : /proxy sc help [for the list of supported dungeons]
 
 Once you turn it on, the module will change the status back to off after 5 minutes.
 

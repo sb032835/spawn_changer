@@ -24,7 +24,7 @@ module.exports = function JujuSpawn(dispatch) {
 		command.message('[JujuSpawn] Auto-turn off complete.');
 	};
 
-	command.add('TS', arg => {
+	command.add('SC', arg => {
     	arg = arg.toUpperCase();
     	if(arg === 'HELP'){
     		let str = '[JujuSpawn] Possible dungeons are:';
