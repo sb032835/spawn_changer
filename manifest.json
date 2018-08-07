@@ -1,7 +1,8 @@
 {
   "files": {
     "data.json": "ab031903d711f17d3893001f7ef4c237cd6e87099c37760eb18769949f5a0f12",
-    "index.js": "5debe52cc203517017952f468967d63fc0c9afdb7462054ab44c4acf090757b7"
+    "index.js": "5debe52cc203517017952f468967d63fc0c9afdb7462054ab44c4acf090757b7",
+    "README.md": "83cc82f71999f98182ea8edf9e149284689b8881d9448dd7a6740225121937fb"
   },
    "defs": {
 	  "S_LOGIN": 10,
