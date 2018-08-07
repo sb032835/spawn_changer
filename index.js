@@ -71,7 +71,7 @@ module.exports = function JujuSpawn(dispatch) {
     });
 
     dispatch.hook('S_SPAWN_ME', 2, event => {
-    	console.log(event)
+    	//console.log(event)
         if(teleport){
 	    	event.loc = portTo.loc;
 	    	event.w = portTo.w;
