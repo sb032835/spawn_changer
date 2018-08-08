@@ -1,29 +1,20 @@
-Update: NOW SUPPORTS FIRST | SECOND | LAST BOSS For dungeons (Not all for now, cus im too lazy, i think only TR | RK | RR | AA)
+# Automatically uses Brooch and Rootbeer (if you have them) when using certain skills.  ***Auto detects the brooch you have***
 
- THE FINAL (MAYBE) IS HERE: (Screw double loading screens) :c
-Changes your spawn location so you spawn closer to the boss. The following dungeon are supported, and the value on right is their default status. 
+There is two section
+useBroochOn [Currently supports : Gamble, ARush, Dexter]
+useRootBeerOn [Currently supports: Gamble, ARush, Rampage]
 
-* Ghiliglade | On
-* Pit of Pitrax | Off
-* Broken Prison | Off
-* Ruinous Manor (N/H) | Off
-* Lilith's Keep (N/H) | Off
-* Thaumetal Refinery (N/H) | Off
-* RK-9 Kennel (N/H) | Off
-* Red Refuge (N/H) | Off
+Put skills in respective field that you want to have auto use effect.
 
-To turn them on in game, type the following command: 
->/proxy sc dungeon_short_name boss_number
->ex: /proxy sc rkn second
+You can get skill ID's from https://moongourd.com/info or do /proxy au debug and use the skill, it will print on your console.
+Commands: 
+> /proxy au on
 
-if no boss_number is provided, it will default to first boss.
-Boss_number takes following argument : first | second | last
+> /proxy au off
 
->Type : /proxy sc help [for the list of supported dungeons]
+> /proxy debug
 
-Once you turn it on, the module will change the status back to off after 5 minutes.
+> /proxy help
 
-Typing the same command again will turn it off. 
-
-Have fun, Don't abuse it. I am not responsible to w/e happens to your account!  
-(ALSO I DIDN'T TEST ALL OF THE DUNGEONS, IF IT DOESN'T WORK, LET ME KNOW) 
+I have no idea when other classes uses their stuff so, add it yourself in skills!
+Note if you include multiple skill for same class, it will use brooch + beer on the first skill used where the items are off cooldown.
