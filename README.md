@@ -1,30 +1,20 @@
-Update: NOW SUPPORTS FIRST | SECOND | LAST BOSS For dungeons (Not all for now, cus im too lazy, i think only TR | RK | RR | AA)
+副本傳送
 
- THE FINAL (MAYBE) IS HERE: (Screw double loading screens) :c
-Changes your spawn location so you spawn closer to the boss. The following dungeon are supported, and the value on right is their default status. 
+* 奇利安森林 | On
+* 單人阿卡莎 | On
+* 單人黃金迷宫| On
+* 古代地下水道 | Off
+* 飛船 | Off
+* 火神巴哈勒 | Off
 
-* Ghiliglade | On
-* Pit of Pitrax | Off
-* Broken Prison | Off
-* Ruinous Manor (N/H) | Off
-* Lilith's Keep (N/H) | Off
-* Thaumetal Refinery (N/H) | Off
-* RK-9 Kennel (N/H) | Off
-* Red Refuge (N/H) | Off
-* Antaroth's Abyss (N/N) | Off
+On 為默認開啟，Off 為默認關閉
 
-To turn them on in game, type the following command: 
-> /proxy ts dungeon_short_name boss_number
+指令
+在PROXY 頻道上輸入 go 副本代號  
+ex: go gg
+ex: go 39
 
-ex: /proxy ts rkn second
-If no boss_number is provided, it will default to first boss.
-Boss_number takes following argument : first | second | last
+一旦開啟傳送，將在5分鐘後將狀態恢復為關閉狀態
 
-> Type : /proxy ts help [for the list of supported dungeons]
+如果再輸入同樣指令，則會恢復為關閉狀態
 
-Once you turn it on, the module will change the status back to off after 5 minutes.
-
-Typing the same command again will turn it off. 
-
-Have fun, Don't abuse it. I am not responsible to w/e happens to your account!  
-(ALSO I DIDN'T TEST ALL OF THE DUNGEONS, IF IT DOESN'T WORK, LET ME KNOW) 
