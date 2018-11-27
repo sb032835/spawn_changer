@@ -1,19 +1,33 @@
 [
-	{"name" : "Ghiliglade",
+	{"name" : "奇利安",
 	"short_name" : "GG",
 	"allowHealer" : false,
 	"entrance" : { "zone": 9713, "loc": {"x": 54997, "y": 116171, "z": 4517}},
 	"portTo" : {
 		"first" : {
 			"active" : true, 
-			"comment" : "Bridge in front of tree", 
+			"comment" : "砍樹 gogo", 
 			"zone": 9713, 
 			"loc": {"x": 52229.9140625, "y": 117334.8515625, "z": 4386}, 
 			"w": 1.5512380717493546}
 		}
 	},
+	
+	{"name" : "下水道",
+	"short_name" : "39",
+	"allowHealer" : true,
+	"entrance" : { "zone": 9777, "loc": {"x": -121630, "y": -41458, "z": 2301}},
+	"portTo" : {
+		"first" : {
+			"active" : false, 
+			"comment" : "下水道gogo", 
+			"zone": 9777, 
+			"loc": {"x": -112670, "y": 133091, "z": 461}, 
+			"w": -507}
+		}
+	},
 
-	{"name" : "Pit of Pitrax",
+	{"name" : "佩特萊",
 	"short_name" : "POP",
 	"allowHealer" : true,
 	"entrance" : { "zone": 9126, "loc": {"x": -130619, "y": -117502, "z": -84}},
@@ -27,281 +41,73 @@
 		}
 	},
 
-	{"name" : "Broken Prison",
-	"short_name" : "BP",
+	{"name" : "火神",
+	"short_name" : "BR1",
 	"allowHealer" : true,
-	"entrance" : { "zone": 9710, "loc": {"x": -83804, "y": 34682, "z": 13516}},
+	"entrance" : { "zone": 9044, "loc": {"x": -103510, "y": 98460, "z": 3547}},
 	"portTo" : {
 		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9710, 
-			"loc": {"x": -82969.25, "y": 38740.7421875, "z": 13536}, 
-			"w": 1.4997538415559428}
+			"active" : false, 
+			"comment" : "1王gogo", 
+			"zone": 9044, 
+			"loc": {"x": -100965, "y": 115102, "z": 4022}, 
+			"w": -691}
 		}
 	},
 
-	{"name" : "Ruinous Manor",
-	"short_name" : "RMN",
+	{"name" : "火神",
+	"short_name" : "BR2",
 	"allowHealer" : true,
-	"entrance" : { "zone": 9770, "loc": {"x": -99638, "y": 2550, "z": 6471}},
+	"entrance" : { "zone": 9044, "loc": {"x": -103510, "y": 98460, "z": 3547}},
 	"portTo" : {
 		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9770, 
-			"loc": {"x": -99691.8203125, "y": 3863.656982421875, "z": 6480}, 
-			"w": 1.576932249946439}
+			"active" : false, 
+			"comment" : "2王gogo", 
+			"zone": 9044, 
+			"loc": {"x": -116375, "y": 115085, "z": 4022}, 
+			"w": -237}
 		}
 	},
 
-	{"name" : "Ruinous Manor (Hard)",
-	"short_name" : "RMH",
+	{"name" : "黃金沒力號",
+	"short_name" : "439",
 	"allowHealer" : true,
-	"entrance" : { "zone": 9970, "loc": {"x": -99638, "y": 2550, "z": 6471}},
+	"entrance" : { "zone": 9716, "loc": {"x": 56282, "y": 130696, "z": -31213}},
 	"portTo" : {
 		"first" : {
 			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9970, 
-			"loc": {"x": -99691.8203125, "y": 3863.656982421875, "z": 6480}, 
-			"w": 1.576932249946439}
+			"comment" : "gogo", 
+			"zone": 9716, 
+			"loc": {"x": 49500, "y": 129289, "z": 3722}, 
+			"w": -0}
 		}
 	},
 
-	{"name" : "Lilith's Keep",
-	"short_name" : "LKN",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9769, "loc": {"x": -97059, "y": 32766, "z": 6482}},
+	{"name" : "單人阿卡莎",
+	"short_name" : "AKA",
+	"allowHealer" : false,
+	"entrance" : { "zone": 9031, "loc": {"x": 68482, "y": 125779, "z": 7775}},
 	"portTo" : {
 		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9769, 
-			"loc": {"x": -99680.421875, "y": 34515.7265625, "z": 6479}, 
-			"w": 1.5800002115222105}
+			"active" : true,
+			"comment" : "阿卡莎gogo", 
+			"zone": 9031, 
+			"loc": {"x": 72424, "y": 133968, "z": -503},
+			"w": 0}
 		}
 	},
 
-	{"name" : "Lilith's Keep (Hard)",
-	"short_name" : "LKH",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9969, "loc": {"x": -97059, "y": 32766, "z": 6482}},
+	{"name" : "單人黃金迷宮",
+	"short_name" : "GAL",
+	"allowHealer" : false,
+	"entrance" : { "zone": 9032, "loc": {"x": 16921, "y": 177244, "z": -1665}},
 	"portTo" : {
 		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9969, 
-			"loc": {"x": -99680.421875, "y": 34515.7265625, "z": 6479}, 
-			"w": 1.5800002115222105}
+			"active" : true,
+			"comment" : "黃金迷宮gogo", 
+			"zone": 9032, 
+			"loc": {"x": 28214, "y": 178550, "z": -1675}, 
+			"w": 0}
 		}
 	},
-
-	{"name" : "Thaumetal Refinery",
-	"short_name" : "TRN",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9794, "loc": {"x": -51727, "y": 39135, "z": 3530}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9794, 
-			"loc": {"x": -53725.32421875, "y": 42393.484375, "z": 1458}, 
-			"w": 1.5669613748251825},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9794, 
-			"loc": {"x": -55485.0390625, "y": 47327.328125, "z": 669}, 
-			"w": -3.0315295320589986},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9794, 
-			"loc": {"x": -53019.265625, "y": 53906.28515625, "z": -3548}, 
-			"w": 0.02646116859102731}
-		}
-	},
-
-	{"name" : "Thaumetal Refinery (Hard)",
-	"short_name" : "TRH",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9994, "loc": {"x": -51727, "y": 39135, "z": 3530}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss",
-			"zone": 9994, 
-			"loc": {"x": -53725.32421875, "y": 42393.484375, "z": 1458}, 
-			"w": 1.5669613748251825},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9994, 
-			"loc": {"x": -55485.0390625, "y": 47327.328125, "z": 669}, 
-			"w": -3.0315295320589986},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9994, 
-			"loc": {"x": -53019.265625, "y": 53906.28515625, "z": -3548},
-			"w": 0.02646116859102731}
-		}
-	},
-
-	{"name" : "RK-9 Kennel",
-	"short_name" : "RKN",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9735, "loc": {"x": -43486, "y": 40629, "z": -953}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9735, 
-			"loc": {"x": -38366, "y": 54394, "z": 1}, 
-			"w": -1.5707963267948966},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9735, 
-			"loc": {"x": -32879, "y": 58849, "z": 1}, 
-			"w": 0.523566817665218},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9735, 
-			"loc": {"x": -33766, "y": 40637, "z": 23}, 
-			"w": -3.141592653589793}
-		}
-	},
-
-	{"name" : "RK-9 Kennel (Hard)",
-	"short_name" : "RKH",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9935, "loc": {"x": -43486, "y": 40629, "z": -953}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9935, 
-			"loc": {"x": -38366, "y": 54394, "z": 1}, 
-			"w": -1.5707963267948966},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9935, 
-			"loc": {"x": -32879, "y": 58849, "z": 1}, 
-			"w": 0.523566817665218},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9935, 
-			"loc": {"x": -33766, "y": 40637, "z": 23}, 
-			"w": -3.141592653589793}
-		}
-	},
-
-	{"name" : "Red Refuge",
-	"short_name" : "RRN",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9739, "loc": {"x": 56352, "y": -101167, "z": 2735}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9739, 
-			"loc": {"x": 56024.65234375, "y": -98181.1328125, "z": 2539}, 
-			"w": 2.058793964941016},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9739, 
-			"loc": {"x": 54156.65234375, "y": -93167, "z": 1373}, 
-			"w": 2.5333692711931364},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9739, 
-			"loc": {"x": 51511, "y": -88060, "z": 1165}, 
-			"w": 1.88583763110691}
-		}
-	},
-
-	{"name" : "Red Refuge (Hard)",
-	"short_name" : "RRH",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9939, "loc": {"x": 56352, "y": -101167, "z": 2735}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9939, 
-			"loc": {"x": 56024.65234375, "y": -98181.1328125, "z": 2539}, 
-			"w": 2.058793964941016},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9939, 
-			"loc": {"x": 54156.65234375, "y": -93167, "z": 1373}, 
-			"w": 2.5333692711931364},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9939, 
-			"loc": {"x": 51511, "y": -88060, "z": 1165}, 
-			"w": 1.88583763110691}
-		}
-	},
-
-	{"name" : "Antaroth's Abyss",
-	"short_name" : "AAN",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9720, "loc": {"x": 35845, "y": -96496, "z": 1739}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9720, 
-			"loc": {"x": 34309.1484375, "y": -96355.90625, "z": 155}, 
-			"w": 0.3426529584939551},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9720, 
-			"loc": {"x": 38222, "y": -98470, "z": 240}, 
-			"w": -1.5033011721279284},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9720, 
-			"loc": {"x": 41347, "y": -99525, "z": 233}, 
-			"w": 1.5825888041017675}
-		}
-	},
-
-	{"name" : "Antaroth's Abyss (Hard)",
-	"short_name" : "AAH",
-	"allowHealer" : true,
-	"entrance" : { "zone": 9920, "loc": {"x": 35845, "y": -96496, "z": 1739}},
-	"portTo" : {
-		"first" : {
-			"active" : false,
-			"comment" : "First Boss", 
-			"zone": 9920, 
-			"loc": {"x": 34309.1484375, "y": -96355.90625, "z": 155}, 
-			"w": 0.3426529584939551},
-		"second" : {
-			"active" : false,
-			"comment" : "Second Boss", 
-			"zone": 9920, 
-			"loc": {"x": 38222, "y": -98470, "z": 240}, 
-			"w": -1.5033011721279284},
-		"last" : {
-			"active" : false,
-			"comment" : "Last Boss", 
-			"zone": 9920, 
-			"loc": {"x": 41347, "y": -99525, "z": 233}, 
-			"w": 1.5825888041017675}
-		}
-	}
 ]
