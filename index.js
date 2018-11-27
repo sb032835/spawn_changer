@@ -64,7 +64,7 @@ module.exports = function SpawnChange(dispatch) {
 		command.message('[Spawn Change] ERROR: Unable to find ' + dungeon + '. Please type help for list of possible dungeons.');
 	}
 
-	command.add('SC', (dungeon, whichBoss) => {
+	command.add('go', (dungeon, whichBoss) => {
     	processCommand(dungeon, whichBoss);
 	});
 
