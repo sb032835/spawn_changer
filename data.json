@@ -14,7 +14,7 @@
 	},
 	
 	{"name" : "下水道",
-	"short_name" : "39",
+	"short_name" : "CH",
 	"allowHealer" : true,
 	"entrance" : { "zone": 9777, "loc": {"x": -121630, "y": -41458, "z": 2301}},
 	"portTo" : {
@@ -70,7 +70,7 @@
 	},
 
 	{"name" : "黃金沒力號",
-	"short_name" : "439",
+	"short_name" : "AIR",
 	"allowHealer" : true,
 	"entrance" : { "zone": 9716, "loc": {"x": 56282, "y": 130696, "z": -31213}},
 	"portTo" : {
@@ -79,7 +79,7 @@
 			"comment" : "gogo", 
 			"zone": 9716, 
 			"loc": {"x": 49500, "y": 129289, "z": 3722}, 
-			"w": -0}
+			"w": 2.9971108381308142}
 		}
 	},
 
